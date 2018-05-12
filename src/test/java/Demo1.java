@@ -23,7 +23,7 @@ public class Demo1 {
     @BeforeClass
     public static void quanju(){
         RestAssured.useRelaxedHTTPSValidation();
-        RestAssured.proxy("192.168.31.180",8888);
+        RestAssured.proxy("192.168.1.103",8888);
         requestSpecification =new RequestSpecBuilder().build();
         requestSpecification.cookie("test","tester");
         requestSpecification.header("test1","tester1");
