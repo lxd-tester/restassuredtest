@@ -1,0 +1,1235 @@
+{
+  "$id": "https://xueqiu.com/v4/stock/quote.json?code=SOGO",
+  "type": "object",
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "properties": {
+    "SOGO": {
+      "$id": "/properties/SOGO",
+      "type": "object",
+      "properties": {
+        "symbol": {
+          "$id": "/properties/SOGO/properties/symbol",
+          "type": "string",
+          "title": "The Symbol Schema ",
+          "default": "",
+          "examples": [
+            "SOGO"
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "exchange": {
+          "$id": "/properties/SOGO/properties/exchange",
+          "type": "string",
+          "title": "The Exchange Schema ",
+          "default": "",
+          "examples": [
+            "NYSE"
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "code": {
+          "$id": "/properties/SOGO/properties/code",
+          "type": "string",
+          "title": "The Code Schema ",
+          "default": "",
+          "examples": [
+            "SOGO"
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "name": {
+          "$id": "/properties/SOGO/properties/name",
+          "type": "string",
+          "title": "The Name Schema ",
+          "default": "",
+          "examples": [
+            "搜狗"
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "current": {
+          "$id": "/properties/SOGO/properties/current",
+          "type": "string",
+          "title": "The Current Schema ",
+          "default": "",
+          "examples": [
+            "8.47"
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "percentage": {
+          "$id": "/properties/SOGO/properties/percentage",
+          "type": "string",
+          "title": "The Percentage Schema ",
+          "default": "",
+          "examples": [
+            "0.0"
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "change": {
+          "$id": "/properties/SOGO/properties/change",
+          "type": "string",
+          "title": "The Change Schema ",
+          "default": "",
+          "examples": [
+            "0.00"
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "open": {
+          "$id": "/properties/SOGO/properties/open",
+          "type": "string",
+          "title": "The Open Schema ",
+          "default": "",
+          "examples": [
+            "8.42"
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "high": {
+          "$id": "/properties/SOGO/properties/high",
+          "type": "string",
+          "title": "The High Schema ",
+          "default": "",
+          "examples": [
+            "8.47"
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "low": {
+          "$id": "/properties/SOGO/properties/low",
+          "type": "string",
+          "title": "The Low Schema ",
+          "default": "",
+          "examples": [
+            "8.21"
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "close": {
+          "$id": "/properties/SOGO/properties/close",
+          "type": "string",
+          "title": "The Close Schema ",
+          "default": "",
+          "examples": [
+            "8.47"
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "last_close": {
+          "$id": "/properties/SOGO/properties/last_close",
+          "type": "string",
+          "title": "The Last_close Schema ",
+          "default": "",
+          "examples": [
+            "8.47"
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "high52week": {
+          "$id": "/properties/SOGO/properties/high52week",
+          "type": "string",
+          "title": "The High52week Schema ",
+          "default": "",
+          "examples": [
+            "14.7"
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "low52week": {
+          "$id": "/properties/SOGO/properties/low52week",
+          "type": "string",
+          "title": "The Low52week Schema ",
+          "default": "",
+          "examples": [
+            "7.91"
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "volume": {
+          "$id": "/properties/SOGO/properties/volume",
+          "type": "string",
+          "title": "The Volume Schema ",
+          "default": "",
+          "examples": [
+            "796022.0"
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "lot_volume": {
+          "$id": "/properties/SOGO/properties/lot_volume",
+          "type": "string",
+          "title": "The Lot_volume Schema ",
+          "default": "",
+          "examples": [
+            "796022.0"
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "volumeAverage": {
+          "$id": "/properties/SOGO/properties/volumeAverage",
+          "type": "string",
+          "title": "The Volumeaverage Schema ",
+          "default": "",
+          "examples": [
+            "1350240"
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "marketCapital": {
+          "$id": "/properties/SOGO/properties/marketCapital",
+          "type": "string",
+          "title": "The Marketcapital Schema ",
+          "default": "",
+          "examples": [
+            "3.31619520232E9"
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "eps": {
+          "$id": "/properties/SOGO/properties/eps",
+          "type": "string",
+          "title": "The Eps Schema ",
+          "default": "",
+          "examples": [
+            "0.29"
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "pe_ttm": {
+          "$id": "/properties/SOGO/properties/pe_ttm",
+          "type": "string",
+          "title": "The Pe_ttm Schema ",
+          "default": "",
+          "examples": [
+            "29.2069"
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "pe_lyr": {
+          "$id": "/properties/SOGO/properties/pe_lyr",
+          "type": "string",
+          "title": "The Pe_lyr Schema ",
+          "default": "",
+          "examples": [
+            "40.4414"
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "beta": {
+          "$id": "/properties/SOGO/properties/beta",
+          "type": "string",
+          "title": "The Beta Schema ",
+          "default": "",
+          "examples": [
+            "0.0"
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "totalShares": {
+          "$id": "/properties/SOGO/properties/totalShares",
+          "type": "string",
+          "title": "The Totalshares Schema ",
+          "default": "",
+          "examples": [
+            "391522456"
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "time": {
+          "$id": "/properties/SOGO/properties/time",
+          "type": "string",
+          "title": "The Time Schema ",
+          "default": "",
+          "examples": [
+            "Fri Apr 20 15:59:59 -0400 2018"
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "afterHours": {
+          "$id": "/properties/SOGO/properties/afterHours",
+          "type": "string",
+          "title": "The Afterhours Schema ",
+          "default": "",
+          "examples": [
+            "8.29"
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "afterHoursPct": {
+          "$id": "/properties/SOGO/properties/afterHoursPct",
+          "type": "string",
+          "title": "The Afterhourspct Schema ",
+          "default": "",
+          "examples": [
+            "-2.13"
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "afterHoursChg": {
+          "$id": "/properties/SOGO/properties/afterHoursChg",
+          "type": "string",
+          "title": "The Afterhourschg Schema ",
+          "default": "",
+          "examples": [
+            "-0.18"
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "afterHoursTime": {
+          "$id": "/properties/SOGO/properties/afterHoursTime",
+          "type": "string",
+          "title": "The Afterhourstime Schema ",
+          "default": "",
+          "examples": [
+            "Fri Apr 20 20:00:08 -0400 2018"
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "updateAt": {
+          "$id": "/properties/SOGO/properties/updateAt",
+          "type": "string",
+          "title": "The Updateat Schema ",
+          "default": "",
+          "examples": [
+            "1524254450184"
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "dividend": {
+          "$id": "/properties/SOGO/properties/dividend",
+          "type": "string",
+          "title": "The Dividend Schema ",
+          "default": "",
+          "examples": [
+            "0.0"
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "yield": {
+          "$id": "/properties/SOGO/properties/yield",
+          "type": "string",
+          "title": "The Yield Schema ",
+          "default": "",
+          "examples": [
+            "0.0"
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "turnover_rate": {
+          "$id": "/properties/SOGO/properties/turnover_rate",
+          "type": "string",
+          "title": "The Turnover_rate Schema ",
+          "default": "",
+          "examples": [
+            "0.20%"
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "instOwn": {
+          "$id": "/properties/SOGO/properties/instOwn",
+          "type": "string",
+          "title": "The Instown Schema ",
+          "default": "",
+          "examples": [
+            "0.0"
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "rise_stop": {
+          "$id": "/properties/SOGO/properties/rise_stop",
+          "type": "string",
+          "title": "The Rise_stop Schema ",
+          "default": "",
+          "examples": [
+            "0.0"
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "fall_stop": {
+          "$id": "/properties/SOGO/properties/fall_stop",
+          "type": "string",
+          "title": "The Fall_stop Schema ",
+          "default": "",
+          "examples": [
+            "0.0"
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "currency_unit": {
+          "$id": "/properties/SOGO/properties/currency_unit",
+          "type": "string",
+          "title": "The Currency_unit Schema ",
+          "default": "",
+          "examples": [
+            ""
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "amount": {
+          "$id": "/properties/SOGO/properties/amount",
+          "type": "string",
+          "title": "The Amount Schema ",
+          "default": "",
+          "examples": [
+            "6583101.94"
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "net_assets": {
+          "$id": "/properties/SOGO/properties/net_assets",
+          "type": "string",
+          "title": "The Net_assets Schema ",
+          "default": "",
+          "examples": [
+            "0.0"
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "hasexist": {
+          "$id": "/properties/SOGO/properties/hasexist",
+          "type": "string",
+          "title": "The Hasexist Schema ",
+          "default": "",
+          "examples": [
+            ""
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "has_warrant": {
+          "$id": "/properties/SOGO/properties/has_warrant",
+          "type": "string",
+          "title": "The Has_warrant Schema ",
+          "default": "",
+          "examples": [
+            "0"
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "type": {
+          "$id": "/properties/SOGO/properties/type",
+          "type": "string",
+          "title": "The Type Schema ",
+          "default": "",
+          "examples": [
+            "1"
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "flag": {
+          "$id": "/properties/SOGO/properties/flag",
+          "type": "string",
+          "title": "The Flag Schema ",
+          "default": "",
+          "examples": [
+            "1"
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "rest_day": {
+          "$id": "/properties/SOGO/properties/rest_day",
+          "type": "string",
+          "title": "The Rest_day Schema ",
+          "default": "",
+          "examples": [
+            ""
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "amplitude": {
+          "$id": "/properties/SOGO/properties/amplitude",
+          "type": "string",
+          "title": "The Amplitude Schema ",
+          "default": "",
+          "examples": [
+            "2.83%"
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "market_status": {
+          "$id": "/properties/SOGO/properties/market_status",
+          "type": "string",
+          "title": "The Market_status Schema ",
+          "default": "",
+          "examples": [
+            "已收盘"
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "lot_size": {
+          "$id": "/properties/SOGO/properties/lot_size",
+          "type": "string",
+          "title": "The Lot_size Schema ",
+          "default": "",
+          "examples": [
+            "1"
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "min_order_quantity": {
+          "$id": "/properties/SOGO/properties/min_order_quantity",
+          "type": "string",
+          "title": "The Min_order_quantity Schema ",
+          "default": "",
+          "examples": [
+            "0"
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "max_order_quantity": {
+          "$id": "/properties/SOGO/properties/max_order_quantity",
+          "type": "string",
+          "title": "The Max_order_quantity Schema ",
+          "default": "",
+          "examples": [
+            "0"
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "tick_size": {
+          "$id": "/properties/SOGO/properties/tick_size",
+          "type": "string",
+          "title": "The Tick_size Schema ",
+          "default": "",
+          "examples": [
+            "0.01"
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "variable_tick_size": {
+          "$id": "/properties/SOGO/properties/variable_tick_size",
+          "type": "string",
+          "title": "The Variable_tick_size Schema ",
+          "default": "",
+          "examples": [
+            "0.0001 1 0.01"
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "kzz_stock_symbol": {
+          "$id": "/properties/SOGO/properties/kzz_stock_symbol",
+          "type": "string",
+          "title": "The Kzz_stock_symbol Schema ",
+          "default": "",
+          "examples": [
+            ""
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "kzz_stock_name": {
+          "$id": "/properties/SOGO/properties/kzz_stock_name",
+          "type": "string",
+          "title": "The Kzz_stock_name Schema ",
+          "default": "",
+          "examples": [
+            ""
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "kzz_stock_current": {
+          "$id": "/properties/SOGO/properties/kzz_stock_current",
+          "type": "string",
+          "title": "The Kzz_stock_current Schema ",
+          "default": "",
+          "examples": [
+            "8.27"
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "kzz_convert_price": {
+          "$id": "/properties/SOGO/properties/kzz_convert_price",
+          "type": "string",
+          "title": "The Kzz_convert_price Schema ",
+          "default": "",
+          "examples": [
+            "0.0"
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "kzz_covert_value": {
+          "$id": "/properties/SOGO/properties/kzz_covert_value",
+          "type": "string",
+          "title": "The Kzz_covert_value Schema ",
+          "default": "",
+          "examples": [
+            "0.0"
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "kzz_cpr": {
+          "$id": "/properties/SOGO/properties/kzz_cpr",
+          "type": "string",
+          "title": "The Kzz_cpr Schema ",
+          "default": "",
+          "examples": [
+            "0.0"
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "kzz_putback_price": {
+          "$id": "/properties/SOGO/properties/kzz_putback_price",
+          "type": "string",
+          "title": "The Kzz_putback_price Schema ",
+          "default": "",
+          "examples": [
+            "0.0"
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "kzz_convert_time": {
+          "$id": "/properties/SOGO/properties/kzz_convert_time",
+          "type": "string",
+          "title": "The Kzz_convert_time Schema ",
+          "default": "",
+          "examples": [
+            ""
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "kzz_redempt_price": {
+          "$id": "/properties/SOGO/properties/kzz_redempt_price",
+          "type": "string",
+          "title": "The Kzz_redempt_price Schema ",
+          "default": "",
+          "examples": [
+            "0.0"
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "kzz_straight_price": {
+          "$id": "/properties/SOGO/properties/kzz_straight_price",
+          "type": "string",
+          "title": "The Kzz_straight_price Schema ",
+          "default": "",
+          "examples": [
+            "0.0"
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "kzz_stock_percent": {
+          "$id": "/properties/SOGO/properties/kzz_stock_percent",
+          "type": "string",
+          "title": "The Kzz_stock_percent Schema ",
+          "default": "",
+          "examples": [
+            ""
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "pb": {
+          "$id": "/properties/SOGO/properties/pb",
+          "type": "string",
+          "title": "The Pb Schema ",
+          "default": "",
+          "examples": [
+            "0.0"
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "benefit_before_tax": {
+          "$id": "/properties/SOGO/properties/benefit_before_tax",
+          "type": "string",
+          "title": "The Benefit_before_tax Schema ",
+          "default": "",
+          "examples": [
+            "0.0"
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "benefit_after_tax": {
+          "$id": "/properties/SOGO/properties/benefit_after_tax",
+          "type": "string",
+          "title": "The Benefit_after_tax Schema ",
+          "default": "",
+          "examples": [
+            "0.0"
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "convert_bond_ratio": {
+          "$id": "/properties/SOGO/properties/convert_bond_ratio",
+          "type": "string",
+          "title": "The Convert_bond_ratio Schema ",
+          "default": "",
+          "examples": [
+            ""
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "totalissuescale": {
+          "$id": "/properties/SOGO/properties/totalissuescale",
+          "type": "string",
+          "title": "The Totalissuescale Schema ",
+          "default": "",
+          "examples": [
+            ""
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "outstandingamt": {
+          "$id": "/properties/SOGO/properties/outstandingamt",
+          "type": "string",
+          "title": "The Outstandingamt Schema ",
+          "default": "",
+          "examples": [
+            ""
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "maturitydate": {
+          "$id": "/properties/SOGO/properties/maturitydate",
+          "type": "string",
+          "title": "The Maturitydate Schema ",
+          "default": "",
+          "examples": [
+            ""
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "remain_year": {
+          "$id": "/properties/SOGO/properties/remain_year",
+          "type": "string",
+          "title": "The Remain_year Schema ",
+          "default": "",
+          "examples": [
+            ""
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "convertrate": {
+          "$id": "/properties/SOGO/properties/convertrate",
+          "type": "string",
+          "title": "The Convertrate Schema ",
+          "default": "",
+          "examples": [
+            ""
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "interestrtmemo": {
+          "$id": "/properties/SOGO/properties/interestrtmemo",
+          "type": "string",
+          "title": "The Interestrtmemo Schema ",
+          "default": "",
+          "examples": [
+            ""
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "release_date": {
+          "$id": "/properties/SOGO/properties/release_date",
+          "type": "string",
+          "title": "The Release_date Schema ",
+          "default": "",
+          "examples": [
+            ""
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "circulation": {
+          "$id": "/properties/SOGO/properties/circulation",
+          "type": "string",
+          "title": "The Circulation Schema ",
+          "default": "",
+          "examples": [
+            "0.0"
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "par_value": {
+          "$id": "/properties/SOGO/properties/par_value",
+          "type": "string",
+          "title": "The Par_value Schema ",
+          "default": "",
+          "examples": [
+            "0.0"
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "due_time": {
+          "$id": "/properties/SOGO/properties/due_time",
+          "type": "string",
+          "title": "The Due_time Schema ",
+          "default": "",
+          "examples": [
+            "0.0"
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "value_date": {
+          "$id": "/properties/SOGO/properties/value_date",
+          "type": "string",
+          "title": "The Value_date Schema ",
+          "default": "",
+          "examples": [
+            ""
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "due_date": {
+          "$id": "/properties/SOGO/properties/due_date",
+          "type": "string",
+          "title": "The Due_date Schema ",
+          "default": "",
+          "examples": [
+            ""
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "publisher": {
+          "$id": "/properties/SOGO/properties/publisher",
+          "type": "string",
+          "title": "The Publisher Schema ",
+          "default": "",
+          "examples": [
+            ""
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "redeem_type": {
+          "$id": "/properties/SOGO/properties/redeem_type",
+          "type": "string",
+          "title": "The Redeem_type Schema ",
+          "default": "",
+          "examples": [
+            "T"
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "issue_type": {
+          "$id": "/properties/SOGO/properties/issue_type",
+          "type": "string",
+          "title": "The Issue_type Schema ",
+          "default": "",
+          "examples": [
+            ""
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "bond_type": {
+          "$id": "/properties/SOGO/properties/bond_type",
+          "type": "string",
+          "title": "The Bond_type Schema ",
+          "default": "",
+          "examples": [
+            "T"
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "warrant": {
+          "$id": "/properties/SOGO/properties/warrant",
+          "type": "string",
+          "title": "The Warrant Schema ",
+          "default": "",
+          "examples": [
+            ""
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "sale_rrg": {
+          "$id": "/properties/SOGO/properties/sale_rrg",
+          "type": "string",
+          "title": "The Sale_rrg Schema ",
+          "default": "",
+          "examples": [
+            ""
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "rate": {
+          "$id": "/properties/SOGO/properties/rate",
+          "type": "string",
+          "title": "The Rate Schema ",
+          "default": "",
+          "examples": [
+            ""
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "after_hour_vol": {
+          "$id": "/properties/SOGO/properties/after_hour_vol",
+          "type": "string",
+          "title": "The After_hour_vol Schema ",
+          "default": "",
+          "examples": [
+            "796022"
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "float_shares": {
+          "$id": "/properties/SOGO/properties/float_shares",
+          "type": "string",
+          "title": "The Float_shares Schema ",
+          "default": "",
+          "examples": [
+            "0"
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "float_market_capital": {
+          "$id": "/properties/SOGO/properties/float_market_capital",
+          "type": "string",
+          "title": "The Float_market_capital Schema ",
+          "default": "",
+          "examples": [
+            "0.0"
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "disnext_pay_date": {
+          "$id": "/properties/SOGO/properties/disnext_pay_date",
+          "type": "string",
+          "title": "The Disnext_pay_date Schema ",
+          "default": "",
+          "examples": [
+            ""
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "convert_rate": {
+          "$id": "/properties/SOGO/properties/convert_rate",
+          "type": "string",
+          "title": "The Convert_rate Schema ",
+          "default": "",
+          "examples": [
+            ""
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "volume_ratio": {
+          "$id": "/properties/SOGO/properties/volume_ratio",
+          "type": "string",
+          "title": "The Volume_ratio Schema ",
+          "default": "",
+          "examples": [
+            ""
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "percent5m": {
+          "$id": "/properties/SOGO/properties/percent5m",
+          "type": "string",
+          "title": "The Percent5m Schema ",
+          "default": "",
+          "examples": [
+            "0.0"
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "pankou_ratio": {
+          "$id": "/properties/SOGO/properties/pankou_ratio",
+          "type": "string",
+          "title": "The Pankou_ratio Schema ",
+          "default": "",
+          "examples": [
+            "88.68%"
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "dividend_pay_date": {
+          "$id": "/properties/SOGO/properties/dividend_pay_date",
+          "type": "string",
+          "title": "The Dividend_pay_date Schema ",
+          "default": "",
+          "examples": [
+            ""
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "ex_dividend_date": {
+          "$id": "/properties/SOGO/properties/ex_dividend_date",
+          "type": "string",
+          "title": "The Ex_dividend_date Schema ",
+          "default": "",
+          "examples": [
+            ""
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "moving_avg_200_day": {
+          "$id": "/properties/SOGO/properties/moving_avg_200_day",
+          "type": "string",
+          "title": "The Moving_avg_200_day Schema ",
+          "default": "",
+          "examples": [
+            ""
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "chg_from_200_day_moving_avg": {
+          "$id": "/properties/SOGO/properties/chg_from_200_day_moving_avg",
+          "type": "string",
+          "title": "The Chg_from_200_day_moving_avg Schema ",
+          "default": "",
+          "examples": [
+            ""
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "pct_chg_from_200_day_moving_avg": {
+          "$id": "/properties/SOGO/properties/pct_chg_from_200_day_moving_avg",
+          "type": "string",
+          "title": "The Pct_chg_from_200_day_moving_avg Schema ",
+          "default": "",
+          "examples": [
+            ""
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "moving_avg_50_day": {
+          "$id": "/properties/SOGO/properties/moving_avg_50_day",
+          "type": "string",
+          "title": "The Moving_avg_50_day Schema ",
+          "default": "",
+          "examples": [
+            ""
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "chg_from_50_day_moving_avg": {
+          "$id": "/properties/SOGO/properties/chg_from_50_day_moving_avg",
+          "type": "string",
+          "title": "The Chg_from_50_day_moving_avg Schema ",
+          "default": "",
+          "examples": [
+            ""
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "pct_chg_from_50_day_moving_avg": {
+          "$id": "/properties/SOGO/properties/pct_chg_from_50_day_moving_avg",
+          "type": "string",
+          "title": "The Pct_chg_from_50_day_moving_avg Schema ",
+          "default": "",
+          "examples": [
+            ""
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "shares_outstanding": {
+          "$id": "/properties/SOGO/properties/shares_outstanding",
+          "type": "string",
+          "title": "The Shares_outstanding Schema ",
+          "default": "",
+          "examples": [
+            ""
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "ebitda": {
+          "$id": "/properties/SOGO/properties/ebitda",
+          "type": "string",
+          "title": "The Ebitda Schema ",
+          "default": "",
+          "examples": [
+            ""
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "short_ratio": {
+          "$id": "/properties/SOGO/properties/short_ratio",
+          "type": "string",
+          "title": "The Short_ratio Schema ",
+          "default": "",
+          "examples": [
+            ""
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "pe_estimate_next_year": {
+          "$id": "/properties/SOGO/properties/pe_estimate_next_year",
+          "type": "string",
+          "title": "The Pe_estimate_next_year Schema ",
+          "default": "",
+          "examples": [
+            ""
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "peg_ratio": {
+          "$id": "/properties/SOGO/properties/peg_ratio",
+          "type": "string",
+          "title": "The Peg_ratio Schema ",
+          "default": "",
+          "examples": [
+            ""
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "eps_estimate_next_year": {
+          "$id": "/properties/SOGO/properties/eps_estimate_next_year",
+          "type": "string",
+          "title": "The Eps_estimate_next_year Schema ",
+          "default": "",
+          "examples": [
+            ""
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "eps_estimate_next_quarter": {
+          "$id": "/properties/SOGO/properties/eps_estimate_next_quarter",
+          "type": "string",
+          "title": "The Eps_estimate_next_quarter Schema ",
+          "default": "",
+          "examples": [
+            ""
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "eps_estimate_current_quarter": {
+          "$id": "/properties/SOGO/properties/eps_estimate_current_quarter",
+          "type": "string",
+          "title": "The Eps_estimate_current_quarter Schema ",
+          "default": "",
+          "examples": [
+            ""
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "psr": {
+          "$id": "/properties/SOGO/properties/psr",
+          "type": "string",
+          "title": "The Psr Schema ",
+          "default": "",
+          "examples": [
+            ""
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "revenue": {
+          "$id": "/properties/SOGO/properties/revenue",
+          "type": "string",
+          "title": "The Revenue Schema ",
+          "default": "",
+          "examples": [
+            ""
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        },
+        "profit_margin": {
+          "$id": "/properties/SOGO/properties/profit_margin",
+          "type": "string",
+          "title": "The Profit_margin Schema ",
+          "default": "",
+          "examples": [
+            ""
+          ],
+          "minLength": 1,
+          "maxLength": 2
+        }
+      }
+    }
+  }
+}
